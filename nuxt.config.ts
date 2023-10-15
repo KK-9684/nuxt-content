@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     },
   },
   content: {
+    contentHead: false,
     api: {
       baseURL: '/api/_my_content'
     },

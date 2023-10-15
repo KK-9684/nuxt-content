@@ -1,46 +1,36 @@
 ---
-title: 'Index'
-description: '/ first page'
+title: 'Rent'
+description: 'main page'
 ---
 
 # Nuxt Content
 
 
-::the-title
-A [rich text](/) will be **rendered** by the component.
+::row
+  ::head-title
+    **New York Apartments**- Hudson Crossing
+  ::
 ::
-
-Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
-
----
-
-Look at the [Content documentation](https://content.nuxtjs.org/) to learn more.
-
----
-
-Learn how to use @nuxt/content.
-<!--more-->
-Full amount of content beyond the more divider.
 
 ::hero
   :::card
-    A nested card
-    ::card
-      A super nested card
-    ::
+    $3,556+ | <span class="text-yellow-400"> ★★★★★ <span>
+    ---
+    **400 W 37th St, New York, NY 10018** | Hell's Kitchen
+    ---
+    Studio–2 Beds1–2 Baths400-989 Sqft7 **Units Available**
+    ---
+    Managed by Equity Residential
   :::
 ::
 
-::image
-![my image](/img/image.png)
+::row
+  ::image
+  ![my image](/img/image.png)
+  ::
 ::
 
-:banner
-
-::alert{type="warning"}
-The **alert** component.
-::
-
-::alert{type="warning" icon="exclamation-circle"}
-Oops! An error occurred
+::row
+  ::text-base
+    Move in by 10/21 and receive up to 1 month free on select apartment homes. Offer valid on new leases only. Onsite transfers excluded. or $1,000 security deposit special on select apartments! **Offer good thru Oct 21, 2023**
 ::

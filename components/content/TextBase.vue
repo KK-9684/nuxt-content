@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[500px] w-[700px]">
+    <div class="text-base">
       <slot />
     </div>
 </template>
